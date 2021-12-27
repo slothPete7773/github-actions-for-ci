@@ -13,7 +13,6 @@ while (!p2 && p1 !== p2) {
 
 window.onload = () => {
   const game = new Game(p1, p2)
-  
   const turn = document.getElementById('turn')
   const player = document.getElementById('player')
   player.innerText = game.player
